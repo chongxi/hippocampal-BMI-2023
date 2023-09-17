@@ -3,12 +3,12 @@
 ## Overview
 
 This repository is associated with the following paper:
-**Lai C, Tanaka S, Harris TD, Lee AK. Volitional activation of remote place representations with a hippocampal brain‐machine interface. Science, 2023 (in press)**
+**Lai C, Tanaka S, Harris TD, Lee AK. Volitional activation of remote place representations with a hippocampal brain‐machine interface. Science, 2023 (in press).**
 
 This dataset demonstrates the ability of animals to activate remote place representations within the hippocampus when they aren't physically present at those locations. Such remote activations serve as a fundamental capability underpinning memory recall, mental simulation/planning, imagination, and reasoning. By employing a hippocampal map-based brain-machine interface (BMI), we designed two specific tasks to test whether animals can intentionally control their hippocampal activity in a flexible, goal-directed, and model-based manner. Our results show that animals can perform both tasks in real-time and in single trials. This dataset provides the neural and behavior data of these two tasks. The details of the tasks and results are described in the paper. 
 
 ## Dataset access:
-The data is archived at (link).
+The data is archived at (link to be added when received from Dryad).
 
 
 ## Dataset Contents:
@@ -131,4 +131,4 @@ jedi_trials =  torch.load('./data/Jedi/jedi_trials.pd')
 
 ## License: CC BY 4.0
 If you use this dataset, please cite this paper:
-**Lai C, Tanaka S, Harris TD, Lee AK. Volitional activation of remote place representations with a hippocampal brain‐machine interface. Science, 2023 (in press)**
+**Lai C, Tanaka S, Harris TD, Lee AK. Volitional activation of remote place representations with a hippocampal brain‐machine interface. Science, 2023 (in press).**
