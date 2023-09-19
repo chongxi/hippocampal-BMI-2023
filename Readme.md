@@ -18,7 +18,7 @@ Download `data.7z` and `model.7z` from https://doi.org/10.5281/zenodo.8360872
     - **2. Jumper**: Contains data files for the Jumper task.
     - **2. Jedi**: Contains data files for the Jedi task.
 
-- Unzip the `model.7z` to get a `pretrained_model` folder, which contains all 6 pretrained models (`pth` files) trained using the data from the `Running` tasks, 3 used in `Jumper` tasks and 3 used in the `Jedi` tasks. 
+- Unzip the `model.7z` to get a `pretrained_model` folder. The folder contains all 6 pretrained models (`pth` files) trained using the data from the `Running` tasks, 3 used in `Jumper` tasks and 3 used in the `Jedi` tasks. 
 
 Put the `data` folder and `pretrained_model` folder in the same directory as the code in this repository.
 
