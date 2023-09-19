@@ -7,7 +7,10 @@ This repository is associated with the following paper:
 
 This dataset demonstrates the ability of animals to activate remote place representations within the hippocampus when they aren't physically present at those locations. Such remote activations serve as a fundamental capability underpinning memory recall, mental simulation/planning, imagination, and reasoning. By employing a hippocampal map-based brain-machine interface (BMI), we designed two specific tasks to test whether animals can intentionally control their hippocampal activity in a flexible, goal-directed, and model-based manner. Our results show that animals can perform both tasks in real-time and in single trials. This dataset provides the neural and behavior data of these two tasks. The details of the tasks and results are described in the paper. 
 
-## Dataset, pre-trained model and code access:
+## Dataset and pre-trained model access:
+
+Download `data.7z` and `model.7z` from https://doi.org/10.5281/zenodo.8360872
+
 - Unzip the `data.7z` to get a `data` folder. The `data` folder contains three subfolders:
     - **1. Running**: This folder has two subfolders:
       - **run_before_jumper**: Contains data files for the Running task performed before the Jumper task.
@@ -17,8 +20,7 @@ This dataset demonstrates the ability of animals to activate remote place repres
 
 - Unzip the `model.7z` to get a `pretrained_model` folder, which contains all 6 pretrained models (`pth` files) trained using the data from the `Running` tasks, 3 used in `Jumper` tasks and 3 used in the `Jedi` tasks. 
 
-- Unzip the `code.7z`
-
+Put the `data` folder and `pretrained_model` folder in the same directory as the code in this repository.
 
 ## Dataset Contents:
 
