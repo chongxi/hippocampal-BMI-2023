@@ -8,8 +8,7 @@ This repository is associated with the following paper:
 This dataset demonstrates the ability of animals to activate remote place representations within the hippocampus when they aren't physically present at those locations. Such remote activations serve as a fundamental capability underpinning memory recall, mental simulation/planning, imagination, and reasoning. By employing a hippocampal map-based brain-machine interface (BMI), we designed two specific tasks to test whether animals can intentionally control their hippocampal activity in a flexible, goal-directed, and model-based manner. Our results show that animals can perform both tasks in real-time and in single trials. This dataset provides the neural and behavior data of these two tasks. The details of the tasks and results are described in the paper. 
 
 ## Dataset access:
-The data is archived at (link to be added when received from Dryad).
-
+Chongxi; Tanaka, Shinsuke; Harris, Timothy; Lee, Albert (Forthcoming 2023). Volitional activation of remote place representations with a hippocampal brain‐machine interface [Dataset]. Dryad. https://doi.org/10.5061/dryad.ngf1vhj0x. 
 
 ## Dataset Contents:
 
