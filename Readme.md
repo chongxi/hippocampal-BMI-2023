@@ -7,8 +7,18 @@ This repository is associated with the following paper:
 
 This dataset demonstrates the ability of animals to activate remote place representations within the hippocampus when they aren't physically present at those locations. Such remote activations serve as a fundamental capability underpinning memory recall, mental simulation/planning, imagination, and reasoning. By employing a hippocampal map-based brain-machine interface (BMI), we designed two specific tasks to test whether animals can intentionally control their hippocampal activity in a flexible, goal-directed, and model-based manner. Our results show that animals can perform both tasks in real-time and in single trials. This dataset provides the neural and behavior data of these two tasks. The details of the tasks and results are described in the paper. 
 
-## Dataset access:
-Lai, Chongxi; Tanaka, Shinsuke; Harris, Timothy; Lee, Albert (Forthcoming 2023). Volitional activation of remote place representations with a hippocampal brain‐machine interface [Dataset]. Dryad. https://doi.org/10.5061/dryad.ngf1vhj0x. 
+## Dataset, pre-trained model and code access:
+- Unzip the `data.7z` to get a `data` folder. The `data` folder contains three subfolders:
+    - **1. Running**: This folder has two subfolders:
+      - **run_before_jumper**: Contains data files for the Running task performed before the Jumper task.
+      - **run_before_jedi**: Contains data files for the Running task performed before the Jedi task.
+    - **2. Jumper**: Contains data files for the Jumper task.
+    - **2. Jedi**: Contains data files for the Jedi task.
+
+- Unzip the `model.7z` to get a `pretrained_model` folder, which contains all 6 pretrained models (`pth` files) trained using the data from the `Running` tasks, 3 used in `Jumper` tasks and 3 used in the `Jedi` tasks. 
+
+- Unzip the `code.7z`
+
 
 ## Dataset Contents:
 
@@ -19,12 +29,6 @@ Lai, Chongxi; Tanaka, Shinsuke; Harris, Timothy; Lee, Albert (Forthcoming 2023).
   - **Jumper Task**: Here, rats navigate to goal locations using BMI-based teleportation using their hippocampal activity. The dataset provides the rats' neural activity and real-time decoded locations. 
   - **Jedi Task**: Here, rats control the location of a virtual object in the arena using their hippocampal activity. The dataset provides the rats' neural activity and real-time decoded locations. 
 
- - **Data Folder Structure:**  The dataset contains three subfolders:
-    - **1. Running**: This folder has two subfolders:
-      - **run_before_jumper**: Contains data files for the Running task performed before the Jumper task.
-      - **run_before_jedi**: Contains data files for the Running task performed before the Jedi task.
-    - **2. Jumper**: Contains data files for the Jumper task.
-    - **2. Jedi**: Contains data files for the Jedi task.
 
 - **Data Structure**:
   - **Time Stamps, Population Vectors (PV)**: For each animal and task, time stamps and PVs are provided. The Numpy data files labeled `PV_t.npy` contain the time stamps and labeled `PV.npy` contain the PVs. PV is the population vector using 100 ms bin, which is a numpy array with shape (number of samples, number of neurons). The time stamps are the time stamps of the PVs, which is a numpy array with shape (number of samples, ). 
@@ -78,7 +82,10 @@ Below is an example of how to load and utilize the data for `rat1` during the Je
 ### 1. load neural data and location data (PVs in 100 ms bins)
 Running tasks:
 ```python
-TODO
+train_PV = np.load('XXXX_train_FA40_PV.npy')
+train_pos = np.load('XXXX_train_pos.npy')
+test_PV = np.load('XXXX_test_FA40_PV.npy')
+test_pos = np.load('XXXX_test_pos.npy')
 ```
 
 Jumper tasks:
