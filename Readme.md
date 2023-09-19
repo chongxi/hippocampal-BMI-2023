@@ -7,7 +7,7 @@ This repository is associated with the following paper:
 
 This dataset demonstrates the ability of animals to activate remote place representations within the hippocampus when they aren't physically present at those locations. Such remote activations serve as a fundamental capability underpinning memory recall, mental simulation/planning, imagination, and reasoning. By employing a hippocampal map-based brain-machine interface (BMI), we designed two specific tasks to test whether animals can intentionally control their hippocampal activity in a flexible, goal-directed, and model-based manner. Our results show that animals can perform both tasks in real-time and in single trials. This dataset provides the neural and behavior data of these two tasks. The details of the tasks and results are described in the paper. 
 
-## Dataset and pre-trained model access:
+## Dataset and pre-trained model:
 
 Download `data.7z` and `model.7z` from https://doi.org/10.5281/zenodo.8360872
 
